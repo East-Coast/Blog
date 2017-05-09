@@ -143,12 +143,12 @@
   </header>
 
   <section class="post">
-    <h2 id="使用CocoaPods创建私有库"><a href="#使用CocoaPods创建私有库" class="headerlink" title="使用CocoaPods创建私有库"></a>使用CocoaPods创建私有库</h2><h4 id="CocoaPods运行原理"><a href="#CocoaPods运行原理" class="headerlink" title="CocoaPods运行原理"></a>CocoaPods运行原理</h4><blockquote>
+    <h3 id="CocoaPods运行原理"><a href="#CocoaPods运行原理" class="headerlink" title="CocoaPods运行原理"></a>CocoaPods运行原理</h3><blockquote>
 <p>以在项目里使用CocoaPods集成AFNetworking为例</p>
 <p>在执行pod install命令后 首先会在~/.cocoapods/repos文件下spec索引库里查找 AFNetworking.podspec  在spec文件里获取AFNetworking库的存放地址 下载到本地项目里</p>
 </blockquote>
 <p><img src="http://opmo9nzsq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-05-09%20%E4%B8%8A%E5%8D%8810.41.53.png" alt=""></p>
-<h4 id="基于GitLab，以ECBluetooth为例，介绍私有库创建流程"><a href="#基于GitLab，以ECBluetooth为例，介绍私有库创建流程" class="headerlink" title="基于GitLab，以ECBluetooth为例，介绍私有库创建流程"></a>基于GitLab，以ECBluetooth为例，介绍私有库创建流程</h4><blockquote>
+<h3 id="基于GitLab，以ECBluetooth为例，介绍私有库创建流程"><a href="#基于GitLab，以ECBluetooth为例，介绍私有库创建流程" class="headerlink" title="基于GitLab，以ECBluetooth为例，介绍私有库创建流程"></a>基于GitLab，以ECBluetooth为例，介绍私有库创建流程</h3><blockquote>
 <p>在GitLab上添加spec文件存放仓库和code存放仓库</p>
 </blockquote>
 <p><img src="http://opmo9nzsq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-05-08%20%E4%B8%8A%E5%8D%889.59.26.png" alt=""></p>
@@ -169,8 +169,7 @@
 <p>编辑spec文件<a href="http://guides.cocoapods.org/syntax/podspec.html" target="_blank" rel="external">官方文档</a></p>
 </blockquote>
 <p><img src="http://opmo9nzsq.bkt.clouddn.com/11111.png" alt=""></p>
-<p>####cd到Example目录 执行以下命令 提交到GitLab</p>
-<blockquote>
+<h4 id="cd到Example目录-执行以下命令-提交到GitLab"><a href="#cd到Example目录-执行以下命令-提交到GitLab" class="headerlink" title="cd到Example目录 执行以下命令 提交到GitLab"></a>cd到Example目录 执行以下命令 提交到GitLab</h4><blockquote>
 <ul>
 <li>pod update</li>
 <li>git add .</li>
